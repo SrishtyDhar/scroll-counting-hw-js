@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* common css end */
+
+/* page */
+
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.backToTop{
+    cursor: pointer;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-image: conic-gradient(blue 0% 0% ,white 0% 0%);
+position: fixed;
+right: 50px;
+bottom: 50px;
+line-height: 50px;
+text-align: center;
+border: 1px solid gainsboro;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.backToTop span{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.counter{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 2px solid dodgerblue;
+    line-height: 50px;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#counter-card{
+    padding: 80px 0 100px 250px;
+}
+
+/* page end */
